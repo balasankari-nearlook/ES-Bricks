@@ -26056,3 +26056,6 @@ span.select2-selection.select2-selection--single:focus {
 .color{
     color:var(--theme-color);
 }
+.text{
+    text-align: justify;
+}
