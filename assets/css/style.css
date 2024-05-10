@@ -26059,3 +26059,45 @@ span.select2-selection.select2-selection--single:focus {
 .text{
     text-align: justify;
 }
+.text3{
+    display: block;
+    color: var(--theme-color);
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    font-family: var(--title-font);
+    position: relative;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+#myModal{
+    margin-top: 150px;
+}
+.btn-close{
+    color:black;
+}
+.send-button {
+    background-color: var(--theme-color); 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    
+}
+
+/* Style for disabled button */
+.send-button[disabled] {
+    background-color: #ccc; 
+    color: #666; 
+    cursor: not-allowed;
+    
+}
+@media (max-width: 768px) {
+    .send-button {
+        /* Adjust button styles for smaller screens */
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
